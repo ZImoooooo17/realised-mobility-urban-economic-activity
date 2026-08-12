@@ -12,7 +12,7 @@ The study uses 2021 Lower Layer Super Output Areas (LSOAs) as its spatial unit. 
 
 1. To what extent do realised mobility patterns correspond with, or diverge from, the
 spatial distribution of workplace employment across London?
-2. To what extent do realised mobility indicators provide additional explanatory information about workplace employment beyond conventional accessibility and urbancontext measures?
+2. To what extent do realised mobility indicators provide additional explanatory information about workplace employment beyond conventional accessibility and urban context measures?
 3. How do the estimated contributions of mobility indicators differ across linear,
 spatial-econometric and nonlinear machine-learning frameworks?
 
