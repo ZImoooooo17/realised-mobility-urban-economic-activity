@@ -1,0 +1,4 @@
+Variable,Moran's I,z-score,Pseudo-p value
+Employment (employees),0.342,40.90,<=0.001
+Mobility inflow (total users),0.247,29.51,<=0.001
+Flow entropy (index),0.287,34.31,<=0.001

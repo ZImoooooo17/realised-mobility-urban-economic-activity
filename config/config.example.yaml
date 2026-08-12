@@ -1,0 +1,59 @@
+paths:
+  inputs:
+    geography: "<path/to/authorised_lsoa_geometry>"
+    population: "<path/to/authorised_population.csv>"
+    bres: "<path/to/authorised_bres.csv>"
+    ptal: "<path/to/authorised_ptal.csv>"
+    poi: "<path/to/authorised_poi_input>"
+    mobility_indicators: "<path/to/authorised_mobility_indicators.csv>"
+    master_table: "<path/to/local_model_ready_table.csv>"
+  outputs:
+    data_processing: "<path/to/output/data_processing>"
+    feature_engineering: "<path/to/output/feature_engineering>"
+    esda: "<path/to/output/esda>"
+    machine_learning: "<path/to/output/machine_learning>"
+    explainability: "<path/to/output/explainability>"
+    reporting: "<path/to/output/reporting>"
+    robustness: "<path/to/output/robustness>"
+
+spatial:
+  identifier: "LSOA21CD"
+  geometry_column: "geometry"
+  crs: "EPSG:27700"
+  weights: "queen"
+
+model_specification:
+  response_variable: "log1p_employees_count"
+  predictors:
+    - "mobility_inflow_total"
+    - "flow_entropy"
+    - "weekday_weekend_ratio"
+    - "ptal_ai_mean"
+    - "population_density_km2"
+    - "amenity_poi_density_km2"
+    - "retail_poi_density_km2"
+
+esda:
+  permutations: 999
+  random_seed: 20260722
+  significance: 0.05
+
+train_test:
+  test_fold: 0
+  random_seed: 20260722
+
+spatial_cv:
+  n_folds: 5
+  random_seed: 20260722
+
+models:
+  random_forest:
+    n_estimators: 500
+    max_depth: null
+    min_samples_leaf: 1
+  xgboost:
+    n_estimators: 500
+    learning_rate: 0.05
+    max_depth: 3
+    subsample: 0.8
+    colsample_bytree: 0.8

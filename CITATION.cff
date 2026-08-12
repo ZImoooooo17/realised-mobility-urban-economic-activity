@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Realised Mobility and Urban Economic Activity"
+type: software
+authors:
+  - family-names: "Du"
+    given-names: "Zimo"
+version: "0.1.0"
+license: MIT
+abstract: "Academic reproducibility repository for an MSc Urban Spatial Science dissertation examining realised mobility and the spatial distribution of urban economic activity in Greater London."
+keywords:
+  - urban mobility
+  - economic activity
+  - spatial econometrics
+  - spatial machine learning
+  - reproducibility

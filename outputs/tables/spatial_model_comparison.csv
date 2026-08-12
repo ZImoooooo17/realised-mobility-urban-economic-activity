@@ -1,0 +1,4 @@
+Model,LogLik,AIC,BIC,RMSE,MAE,Spatial Parameter,Spatial Parameter Estimate,Preferred Model
+OLS,"-6,293.401","12,602.802","12,654.930",0.853,0.646,—,,
+SAR,"-6,229.445","12,478.890","12,544.050",0.839,0.636,rho,0.199,
+SEM,"-6,207.294","12,434.588","12,499.748",0.854,0.646,lambda,0.278,Yes

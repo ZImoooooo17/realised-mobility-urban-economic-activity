@@ -1,0 +1,5 @@
+Variable,Mean,SD,Median,Min,Max
+Employment (employees),"1,149","7,377",300,0,"412,000"
+Mobility inflow (total users),"229,533","211,873","186,992","2,926","6,747,899"
+Flow entropy (index),6.139,0.800,6.145,3.233,9.173
+PTAL (mean accessibility index),13.171,11.435,9.735,0.214,98.328

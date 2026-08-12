@@ -1,0 +1,17 @@
+Variable,Standardised Beta,Robust Standard Error,Robust t,Robust p,95% Confidence Interval
+Intercept,,0.182,13.825,<0.001,"[2.158, 2.871]"
+Mobility inflow,0.240,0.000,4.416,<0.001,"[0.000, 0.000]"
+Flow entropy,0.140,0.038,5.557,<0.001,"[0.136, 0.284]"
+Weekday-weekend ratio,0.149,0.137,9.977,<0.001,"[1.095, 1.631]"
+PTAL,0.207,0.002,10.315,<0.001,"[0.018, 0.026]"
+Population density,-0.172,0.000,-6.199,<0.001,"[-0.000, -0.000]"
+Amenity POI density,0.298,0.001,7.449,<0.001,"[0.003, 0.005]"
+Retail POI density,0.046,0.000,1.774,0.076,"[-0.000, 0.001]"
+n,"4,994",,,,
+R-squared,0.497,,,,
+Adjusted R-squared,0.496,,,,
+RMSE,0.853,,,,
+MAE,0.646,,,,
+AIC,"12,602.802",,,,
+BIC,"12,654.930",,,,
+LogLik,"-6,293.401",,,,
