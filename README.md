@@ -10,9 +10,11 @@ The study uses 2021 Lower Layer Super Output Areas (LSOAs) as its spatial unit. 
 
 ## Research questions
 
-1. To what extent do mobility-derived indicators explain the spatial distribution of urban economic activity across Greater London?
-2. Do mobility-derived indicators improve explanatory performance beyond traditional accessibility measures?
-3. Do machine learning models outperform spatial statistical models in modelling mobility-economy relationships?
+1. To what extent do realised mobility patterns correspond with, or diverge from, the
+spatial distribution of workplace employment across London?
+2. To what extent do realised mobility indicators provide additional explanatory information about workplace employment beyond conventional accessibility and urbancontext measures?
+3. How do the estimated contributions of mobility indicators differ across linear,
+spatial-econometric and nonlinear machine-learning frameworks?
 
 ## Analytical workflow
 
